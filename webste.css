@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+.main{
+    background: url(bled-2582655_1280.jpg)no-repeat;
+    width: 100%;
+    height: 800px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(154, 143, 163);
+
+}
+.go{
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.go:hover{
+    background-color: yellow;
+}
+.logo{
+    color: yellow;
+   padding: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: larger;
+   
+    
+    text-decoration:solid;
+}
+
+
+.icon ul li a{
+    text-decoration: none;
+}
+.icon ul li{
+    list-style: none;
+    float: left;
+    padding: 4px;
+   
+    
+}
+.icon ul{
+   margin-left: 600px;
+   margin-top: -52px;
+}
+.icon ul li a{
+    color: aliceblue;
+    padding: 5px;
+}
+.icon ul li a:hover{
+    background: yellow;
+    color: rgb(67, 124, 216);
+    border-radius: 10px;
+}
+.content{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.367);
+    margin-top: 150px;
+    margin-left: 50px;
+    position: relative;
+  
+    
+}
+.content h1{
+   
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.content p{
+    position: absolute;
+    top: 150px;
+    left: 5px;
+    color: rgb(158, 197, 215);
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+
+}
+.content a{
+    position: absolute;
+    top: 340px; 
+    left: 130px;
+    color: rgb(220, 233, 51);
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    background: red;
+    padding: 8px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.content a:hover{
+background: rgb(231, 231, 69);
+color: rgb(0, 42, 255);
+}
+.form {
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.367);
+    margin-top: -400px;
+    margin-left: 650px;
+    left: 1000px;
+    position: relative;
+  
+} 
+.form .p1{
+    color: gold;
+    text-decoration: underline;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+.form .p2{
+    color: gold;
+    text-decoration: underline;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+}
+
+
+ .form .login{
+    color: red;
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+    transition: .5s;
+   
+   
+    
+ }
+
+ 
+ .form .login #email{
+    position: absolute;
+    left: 80px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: yellow solid 2px;
+   background: transparent;
+   outline: none;
+   transition: s;
+
+ }
+ .form .login #password{
+    position: absolute;
+    left: 80px;
+    top:  40px;
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: yellow solid 2px;
+   background: transparent;
+   outline: none;
+ }
+ .form .login .pass{
+    position: absolute;
+    top: 40px;
+    color: gold;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .form .login .email{
+  
+    color: gold;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .log{
+    background-color: aqua;
+    padding:5px 9px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+    outline: solid rebeccapurple 2px;
+  
+ }
+ .log:hover{
+    background-color: gold;
+ }
+#ops:checked ~ .form .login{
+   left: 40px;
+}
+#ops{
+    display: none;
+}
+#go:checked ~ .form{
+    left: 0px;
+}
+#go{
+    display: none;
+}
+.form .reg{
+   color: red;
+    position: absolute;
+    top: 80px;
+    left: 3000px;
+   
+    transition: 0.5s;
+    line-height: 40px;
+    
+   
+}
+.form .reg .fname{
+    font-weight: bold;
+    font-family: arial;
+    color: gold;
+}
+.form .reg .lname{
+    font-weight: bold;
+    font-family: arial;
+    color: gold;
+}
+.form .reg .email{
+    font-weight: bold;
+    font-family: arial;
+    color: gold;
+}
+
+.form .reg .pass{
+    font-weight: bold;
+    font-family: arial;
+    color: gold;
+}
+.form .reg .pass2{
+    font-weight: bold;
+    font-family: arial;
+    color: gold;
+}
+.form .reg #fristname{
+    background: transparent;
+    outline: none;
+    color: gold;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.form .reg #lastname{
+    background: transparent;
+    outline: none;
+    color: gold;
+    border-radius: 5px;
+    padding-left: 35px;
+}
+.form .reg #email{
+    background: transparent;
+    outline: none;
+    color: gold;
+    border-radius: 5px;
+    padding-left: 65px;
+    
+}
+.form .reg #password{
+    background: transparent;
+    outline: none;
+    color: gold;
+    border-radius: 5px;
+    padding-left: 40px;
+}
+
+.form .reg #pass{
+    background: transparent;
+    outline: none;
+    color: gold;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.log2{
+    background-color: rgb(246, 254, 11);
+    padding:5px 9px;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 110px;
+    border-radius: 10px;
+    outline: solid rgb(16, 201, 44) 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.log2:hover{
+    background-color: coral;
+    color: #3e05dd;
+}
+#to:checked ~ .form .reg{
+   left: 30px;
+}
+#to{
+    display: none;
+}
+
